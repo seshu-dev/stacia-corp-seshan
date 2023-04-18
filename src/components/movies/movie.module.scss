@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  img {
+    padding-top: 87px;
+    width: 517px;
+    height: 450;
+    cursor: pointer;
+  }
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.searchArea{
+  position: absolute;
+  left: 136px;
+  padding: 10px 17px;
+  border: solid 2px white;
+  margin: -8px;
+  top: 142px;
+}
+
+.loader {
+  position: absolute;
+  top: 346px;
+  left: 697px;
+
+ 
+  img{
+    width: 100px;
+    height: 100px;
+  }
+} 
+.cast{
+  border: 2px solid;
+  height: 102px;
+  width: 29xp;
+
+  p{
+    float: left;
+    margin: 16px;
+  }
+}

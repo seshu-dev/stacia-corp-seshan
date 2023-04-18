@@ -1,0 +1,100 @@
+.loginModal {
+  background-image: url("../../images/moviePoster.jpg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.loginTop {
+  opacity: 0.6;
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 20px;
+  border: solid;
+  border-color: sienna;
+  padding: 20px;
+  width: 440px;
+}
+
+.inputBox {
+  padding: 5px 5px;
+  height: 38px;
+  margin: 0px 5px 19px 75px;
+  width: 300px;
+}
+
+.password {
+  padding: 5px 5px;
+  height: 38px;
+  margin: 0px 5px 19px 75px;
+  width: 300px;
+}
+
+.buttonTop {
+  text-align: center;
+}
+
+.loginButton {
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+  margin: 14px;
+  border: solid;
+  border-radius: 10px;
+  border-color: aqua;
+
+  &:hover {
+    background-color: lightblue;
+    color: black;
+  }
+}
+
+.insideEmail {
+  text-align: center;
+}
+
+.insidePass {
+  text-align: center;
+}
+
+.emailName {
+  color: sienna;
+  display: flex;
+  text-align: center;
+  height: 0vh;
+  margin-left: 15px;
+}
+
+.pass {
+  color: sienna;
+  display: flex;
+  text-align: center;
+  height: 0vh;
+  margin-left: 10px;
+}
+.logoName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+  color: tomato;
+  font-size: xxx-large;
+  font-family: cursive;
+}
+.logoDef {
+  width: 90px;
+  height: 70px;
+}
+.emailValidationErrorMessage {
+  width: 100%;
+    display: block;
+    color: red;
+}

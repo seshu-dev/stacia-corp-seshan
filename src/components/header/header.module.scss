@@ -1,0 +1,42 @@
+.headerone {
+  background: rgb(19, 2, 1);
+  margin: 20px;
+  padding: 20px;
+}
+.gif {
+  height: 83px;
+  position: absolute;
+  left: 535px;
+}
+.insta {
+  position: absolute;
+  left: 1226px;
+  width: 44px;
+  top: 37px;
+  cursor: pointer;
+}
+.twitter {
+  position: absolute;
+  left: 1287px;
+  width: 39px;
+  top: 41px;
+  cursor: pointer;
+}
+.logout {
+  position: absolute;
+  left: 1347px;
+  width: 38px;
+  top: 42px;
+  cursor: pointer;
+}
+.profile {
+  position: absolute;
+  left: 1400px;
+  width: 38px;
+  top: 42px;
+  cursor: pointer;
+}
+
+.Popover_content{
+    background-color: black;
+}
